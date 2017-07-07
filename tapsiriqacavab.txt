@@ -1,0 +1,98 @@
+deisken (vairable) nedi?
+
+deyisken bir kodlamada girdiyimiz deyerleri alan ve program islediyi zaman bu deyerin yer aldigi tutuculardi
+
+deyisken yaradarken onun tam veya kesr olmasi (reqem),yazi olmasi,veya isareler olmasi daxilinde bu deyisken de o adda verilmelidir
+
+bir deyisken yaradarken diqqet etmeli oldugumuz bezi hissleler var:
+
+deyiskenlerde bosluq olmamalidir,boyuk kicik herf ayrimi var,(_) xaricinde diger isareleri qebul etmir /,#,*,_,+,-
+
+eyni kod sisteminde adlandirma baximindan yalnizca eyni adda 1 deyisken olmasina icaze var
+
+
+en cox istifade olunana melumat novleri?
+
+melumat novleri (data types) deyiskenin qarsiligi olaraq verdiyiniz deyere gore deyisir
+
+melumat novleri de deyere gore novlere bolunur:
+
+byte,sbyte
+
+short,unshort
+
+long,ulong
+
+int,uint
+
+float
+
+double
+
+dechimal
+
+bunlar reqem novundedir ,numune olaraq sbyte,byte 
+
+byte 0-255 e qeder reqem tutur ve tam sayi qebul edir 8bit uzunlugundadi
+
+sbyte ise -128;127 e qeder reqem tutur ve tam sayi qebul edir 8 bit uzunlugundadi
+
+short,unshort
+
+bunlar da 32 bitlik yer tutur her bir girilen deyerin siralamada 4 reqemli (0001)
+
+uzunluqlari var misal olaraq girilen yazilari (short a) gostermek olar ve s...
+
+ve birde yazi tipli iki nov var 
+
+char 16 bit uzunlugunda 
+
+string uzunlugu yoxdur metin yazmaq ucundur
+
+riyazi operatorlar :
+
++  -   *   /  %   olaraq
+
+5 yere bolunur burda % isaresi yazildigi zaman a ve b deyerinin qaligini size verir
+
+eyni setrde 1 cox riyazi operator istifade olundugu zaman ilk olaraq *,/,% sonra da
+
++ ve - yerine yetirilir
+
+
+
+mentiqi operaorlar;
+
+&& , || , ! 
+
+bu operatorlarda  && isaresi qoyular sa a ve b deyiskeni her ikiside true deyeri vermelidir ki cavab true alinsin
+
+eger numune olaraq a=5 b=6 d=5 desek onda  a&&b&&d yazdigimiz zaman b deyeri duz olmadigina gore bize false deyeri verecek
+
+|| isaresi qoyularsa 2 veya daha artiq deyiskenlerde her hansi ikisi true cavabi verersen cavab true olacq
+
+false cavabi varmesi ucun hamisinin cavabi false vermelidir
+
+! verdiyiniz deyiskeni veye hesablama sonunda alinan cavaba (true or false) ters veirir 
+
+numune olaraq !(false) yazsaq cavab true verecek
+
+set operatorlari :
+
+==  ,  !=  , >  , <  , >=  , <= 
+
+bu operatorlar da 
+
+== isaresi qoyular sa menasi a==b   a beye beraberdirmi? ve ya beraberdirse? sualini verir
+
+!= isaresi ==  isaresinin eksini verir
+
+> ve < i yeqin ki bilirik cavab odenilirse true odenilmirse false deyeri verecek
+
+
+>= ve <= bunlarda da ustteki kimi eger cavab odenilirse true odenilmirse false cavabi verecek
+
+numune olaraq  a=5 b=8 d=5 yazsaq burda a>=b cavabi bize false cavabi verer a>=d yazsaq true cavabi verer cunki a bden boyuk olmasada bye beraberdi
+ 
+
+
